@@ -1,5 +1,7 @@
 # Cost-preserving unsplittable rounding with one large demand and equal small demands
 
+[![DOI](https://zenodo.org/badge/1472379072.svg)](https://doi.org/10.5281/zenodo.24544414)
+
 This repository contains a proof note for independent review and a companion Node.js checker. The note treats a finite directed graph with one source, nonnegative linear arc costs, one terminal demand of size $D$, and all other terminal demands equal to $d$, where $D\ge d>0$. Its claim is the existence of a cost-nonincreasing unsplittable routing $y$ with $y_e<x_e+D$ on every arc. This includes arbitrary two-terminal demand ratios.
 
 - [Proof note (PDF)](unsplittable_flow_one_large_demand.pdf)
